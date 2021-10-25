@@ -1,0 +1,29 @@
+.featureContainer {
+    background:rgb(233, 233, 233);
+    padding: 50px 0;
+    margin: auto;
+ }
+ 
+
+.cardContainer {
+    margin:auto;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    overflow:hidden;
+ }
+
+.iconCard {
+    min-height:1px;
+    flex: 0 0 250px;
+    padding:0 24px;
+    margin-bottom: 18px;
+}
+
+.iconTitle {
+    margin: 1rem 0;
+}
+
+.iconText {
+    color: var(--primary-text-color)
+}

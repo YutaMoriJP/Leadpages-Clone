@@ -1,0 +1,35 @@
+.storyContainer {
+    display:flex;
+    align-items: center;
+    flex-flow: row wrap;
+    width: 100%;
+    height: 500px;
+    max-width: 1140px;
+    margin: auto;
+}
+
+.imageContainer {
+     position: relative;
+    flex: 1 1 600px
+ }
+
+.storyCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    flex: 1 1 400px;
+    background:rgb(255, 255, 255);
+    padding: 20px;
+    position: relative;
+    left: -10%;
+}
+
+.color  {
+    color: var(--primary-btn-color);
+    cursor: pointer;
+}
+
+.linkColor:hover {
+    filter:brightness(0.8)
+}

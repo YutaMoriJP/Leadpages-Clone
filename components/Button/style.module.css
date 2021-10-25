@@ -1,0 +1,47 @@
+.button {
+    background: var(--primary-btn-color);
+    border-radius: 48px;
+    border:3px solid var(--primary-btn-color);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:500px;
+    cursor:pointer;
+    color:rgb(255,255,255);
+    height:48px;
+    width:209px;
+    line-height:28px;
+    font-size:16px;
+    transition: all 0.3s ease 0s;
+    margin:20px;
+    cursor: pointer;
+
+}
+
+.button:hover {
+    filter: brightness(75%);
+}
+
+.reversed {
+    background: transparent;
+    border-radius: 48px;
+    border:3px solid var(--primary-border-color);
+    color:var(--primary-btn-color);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:500px;
+    cursor:pointer;
+    height:48px;
+    width: fit-content;
+    line-height:28px;
+    font-size:16px;
+    transition: all 0.3s ease 0s;
+    margin: 5px;
+    padding: 5px 15px;
+    cursor: pointer;
+}
+
+.reversed:hover {
+    background: var(--primary-btn-color);
+    border-radius: 48px;
+    border:3px solid var(--primary-btn-color);
+    color:rgb(255,255,255);
+}
+ 
