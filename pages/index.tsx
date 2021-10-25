@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Header from "../components/Header/HeaderIntro";
+import Header from "../components/Header/index";
 import Feature from "../components/Feature";
 import Spacer from "../components/Spacer";
 import Stories from "../components/Stories";
