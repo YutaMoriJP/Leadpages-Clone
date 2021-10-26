@@ -13,7 +13,11 @@ export const Title2 = ({ children }: TitleProps) => (
 );
 
 export const Title3 = ({ children }: TitleProps) => (
-  <h2 className={style.title3}>{children}</h2>
+  <h3 className={style.title3}>{children}</h3>
+);
+
+export const Title4 = ({ children }: TitleProps) => (
+  <h4 className={style.title4}>{children}</h4>
 );
 
 export default Title;

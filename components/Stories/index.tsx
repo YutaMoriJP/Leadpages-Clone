@@ -1,6 +1,6 @@
 import React from "react";
 import { Header } from "../Header";
-import { Title2, Title3 } from "../Title";
+import { Title2, Title4 } from "../Title";
 import Content from "../Content";
 import Wrapper from "../Wrapper";
 import Image from "next/image";
@@ -13,7 +13,6 @@ import { useRouter } from "next/router";
 const HeaderSection = () => (
   <Header>
     <Wrapper>
-      <Title2>Under construction</Title2>
       <Title2>Be inspired by someone like you</Title2>
     </Wrapper>
     <Wrapper>
@@ -26,7 +25,7 @@ const HeaderSection = () => (
 
 const StoryImage = () => (
   <div className={style.imageContainer}>
-    <Image width={700} height={500} src={customerImage} />
+    <Image width={800} height={500} src={customerImage} className={style.img} />
   </div>
 );
 
@@ -35,13 +34,13 @@ const StoryCard = () => {
   return (
     <div className={style.storyCard}>
       <Wrapper>
-        <p>{`EXECUTIVE COACH & CONSULTANT`}</p>
+        <span className={style.title}>{`EXECUTIVE COACH & CONSULTANT`}</span>
       </Wrapper>
       <Wrapper>
-        <Title3>
+        <Title4>
           Kailei uses Leadpages to book her clients and sell her consulting
           services.
-        </Title3>
+        </Title4>
       </Wrapper>
       <Wrapper>
         <IconWrapper
