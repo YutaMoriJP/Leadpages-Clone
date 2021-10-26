@@ -35,15 +35,15 @@ const HeaderIntro = (): JSX.Element => (
 const Shapes = () => (
   <>
     <div className={style.leftShape}>
-      <Image src={leftShape} layout="fill" className={style.img} alt="shapes" />
-    </div>
-    <div className={style.rightShape}>
       <Image
-        src={rightShape}
-        layout="fill"
+        src={leftShape}
+        objectFit="fill"
         className={style.img}
         alt="shapes"
       />
+    </div>
+    <div className={style.rightShape}>
+      <Image src={rightShape} className={style.img} objectFit="fill" />
     </div>
   </>
 );

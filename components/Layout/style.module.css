@@ -3,7 +3,8 @@
 }
 
 .nav {
-    position: sticky;
+    position: fixed;
+    width: 100vw;
     top:0;
     left:0;
     background:transparent;

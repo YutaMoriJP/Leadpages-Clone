@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./style.module.css";
+import Spacer from "../Spacer";
 import Nav from "./Nav";
 
 type LayoutProps = {
@@ -10,6 +10,7 @@ const Layout = ({ children }: LayoutProps) => {
   return (
     <>
       <Nav />
+      <Spacer />
       <main>{children}</main>
     </>
   );
