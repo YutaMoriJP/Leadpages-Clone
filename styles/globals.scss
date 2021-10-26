@@ -21,9 +21,10 @@ body {
   background: #f7f7f7
 }
 
-body {
+html, body {
   width:100vw;
   overflow-x: hidden;
+  position: relative;
 }
 
 html {
