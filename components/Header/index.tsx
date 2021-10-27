@@ -39,11 +39,16 @@ const Shapes = () => (
         src={leftShape}
         objectFit="fill"
         className={style.img}
-        alt="shapes"
+        alt="shape image"
       />
     </div>
     <div className={style.rightShape}>
-      <Image src={rightShape} className={style.img} objectFit="fill" />
+      <Image
+        src={rightShape}
+        className={style.img}
+        objectFit="fill"
+        alt="shape image"
+      />
     </div>
   </>
 );
